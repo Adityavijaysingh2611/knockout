@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $("#hamb").click(function () {
+        $("ul").toggleClass("show");
+      });
+    });
+  </script>
+  <title>TITLE</title>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html" class="aicon"><label class="logo"><img src="icon.jpg" alt="" /> </label></a>
+
+    <!-- <label class="logo"><img src="icon.jpg" alt=""></label> -->
+    <!-- <label class="logo">KnockOut</label> -->
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a class="active" href="contest.html">CONTESTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+
+    <label id="hamb">
+      <i><img src="menu.png" alt="" /></i>
+    </label>
+  </nav>
+
+  <div class="contacttop" style="margin: 0;padding: 0;width: 100%;border-bottom-color:rgba(151, 192, 196, 0.315) ; ; margin-top: 2px; padding-top: 30px;background: rgba(151, 192, 196, 0.315);;">
+    <!-- <div id="begincontact">GOT A QUESTION?</div> -->
+    <div id="topheading"><h1>CONTACT KNOCKOUT</h1></div>
+    <div id="toptext" style=" ">
+        We’re here to help and answer any question you might have. We look forward to hearing from you 🙂
+    </div>
+</div>
+  <section class="contestsection">
+
+    <div class="types">
+      <div class="typeimg"> <img src="bgmisquad3.jpeg" alt=""></div>
+      <div class="typetext">
+        <h3 class="categorytitle">category name here </h3>
+        <p class="categorytext"> describe category Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+    </div>
+    <div class="types">
+      <div class="typeimg"> <img src="bgmisquad.jpg" alt=""></div>
+      <div class="typetext">
+        <h3 class="categorytitle">category name here </h3>
+        <p class="categorytext"> describe category Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+    </div>
+    <div class="types">
+      <div class="typeimg"> <img src="bgmisolo.jpg" alt=""></div>
+      <div class="typetext">
+        <h3 class="categorytitle">category name here </h3>
+        <p class="categorytext"> describe category Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+    </div>
+    <div class="types">
+      <div class="typeimg"> <img src="bgmitdm.jpg" alt=""></div>
+      <div class="typetext">
+        <h3 class="categorytitle">category name here </h3>
+        <p class="categorytext"> describe category Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+
+
+</body>
+
+</html>
